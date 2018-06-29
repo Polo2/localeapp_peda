@@ -1,0 +1,28 @@
+en:
+  views:
+    home:
+      index:
+        add-test: test add
+        description: This is a wonder paragraph !!
+        subtitle: subtitle tested
+        test: test key
+        test2: test two
+        title: Homepage
+      test_actions:
+        i_hope_this_one_will_pull_all_others: this key should upload everybody
+        new_2_empty_en_key_from_localeapp: 'key n°2 : last but not the least'
+        new_empty_en_key_from_localeapp: new english key from localeapp
+        new_empty_fr_key_from_localeapp: this key was firstly defined from french
+        this_key_should_not_be_polled: key who don't have to be polled
+        useless_empty_key_but_polling_as_empty_array: 'ya la la '
+        useless_empty_key_but_polling_config_as_empty_array: you lou lou
+        useless_empty_key_from_localeapp: 
+      test_form_yml:
+        english_key_created_in_yml: hello I'm an english key (but not clé anglaise)
+        french_key_created_in_yml: 
+      test_from_localshost:
+        value1: this is the 1st value but the very first
+        value2: this is the 2nd value,
+        value3: " TTTTTTTTTTTTTTTTTTTTTTTTT third value"
+        value4: and with it it's power 4 !!!
+        value7: 'the 7th one '

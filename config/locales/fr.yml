@@ -1,0 +1,28 @@
+fr:
+  views:
+    home:
+      index:
+        add-test: 
+        description: Ceci est un paragraphe
+        subtitle: 
+        test: 
+        test2: test deux
+        title: Page d'accueil
+      test_actions:
+        i_hope_this_one_will_pull_all_others: 
+        new_2_empty_en_key_from_localeapp: 
+        new_empty_en_key_from_localeapp: 
+        new_empty_fr_key_from_localeapp: cette clé est définie en français (et ça n'est pas la langue par défaut)
+        this_key_should_not_be_polled: 
+        useless_empty_key_but_polling_as_empty_array: 
+        useless_empty_key_but_polling_config_as_empty_array: 
+        useless_empty_key_from_localeapp: blopl
+      test_form_yml:
+        english_key_created_in_yml: 
+        french_key_created_in_yml: clé française, de bras et d'honneur
+      test_from_localshost:
+        value1: et la 1ere est que ainsi
+        value2: voilà la seconde valeur
+        value3: ce qui fait donc 3
+        value4: 
+        value7: 

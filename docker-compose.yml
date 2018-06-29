@@ -1,0 +1,24 @@
+version: "3"
+
+volumes:
+  bundle:        { driver: local }
+  config:        { driver: local }
+  postgres-data: { driver: local }
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+      - bundle:/bundle
+      - config:/config
+    links:
+      - postgres
+    ports:
+      - "5000:5000"
+    # environment:
+
+  postgres:
+    image: postgres:9.6.3
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
